@@ -57,6 +57,29 @@ functionWithOptionalParam = function(a: number, b?: number): number {
 console.log(add(5, 10)); // ✅ correct usage of the add function
 // console.log(add(5, "10")); // ❌ incorrect usage, TypeScript will throw
 
+type X = {
+  a:string;
+  b:number;
+  c?:boolean; // optional property
+}
+
+type Y = X & {
+  c:string;
+  d:number;
+}
+
+interface PersonInterface {
+  location: string;
+  name: string;
+  skills: string[];
+}
+
+interface Guy extends PersonInterface {
+ profession: string;
+ age: number;
+ isEmployed: boolean;
+}
+
 function App() {
   return (
     <div className="App">
