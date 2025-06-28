@@ -1,7 +1,10 @@
 # React TypeScript Todo App
 
 A personal project to learn and practice building web apps using React with TypeScript by creating a Todo application with localStorage persistence.
+
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/102bc05f-16d4-4c82-a860-86031a0a5cad/deploy-status)](https://app.netlify.com/projects/venerable-centaur-549b0b/deploys)
+
 ## 🚀 Features
 
 - Todo list management (add, edit, delete)
